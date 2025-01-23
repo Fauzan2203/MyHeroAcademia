@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+header {
+    display: inline;
+}
+
 body {
     font-family: 'Bebas Neue',sans-serif;
 
@@ -9,16 +13,15 @@ body {
     padding: 0;
 }
 
-h2, h3 {
-    color: black;
+#content {
+    flex: 5;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
 }
 
-footer {
-    padding: 12px;
-    color: white;
-    background-color: aqua;
-    text-align: center;
-    font-weight: bold;
+h2, h3 {
+    color: black;
 }
 
 nav a {
@@ -68,10 +71,58 @@ main {
     gap: 1rem 2rem;
 }
 
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 20px;
+}
+
+.card h2 {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#prohero h2{
+    background-color: #009688;
+}
+
+.name {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quirk {
+    display: block;
+    font-size: 16px;
+    color: grey;
+    margin-top: 5px;
+}
+
+.card figure {
+    display: inline-block;
+    width: calc(20% - 1rem);
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card figure:nth-child(5n) {
+    margin-right: 0;
+}
+
 aside {
     flex: 1;
 }
 
-header {
-    display: inline;
+footer {
+    padding: 12px;
+    color: white;
+    background-color: aqua;
+    text-align: center;
+    font-weight: bold;
 }
