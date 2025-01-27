@@ -1,128 +1,145 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 header {
-    display: inline;
+  display: inline;
 }
 
 body {
-    font-family: 'Bebas Neue',sans-serif;
+  font-family: "Bebas Neue", sans-serif;
 
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 #content {
-    flex: 5;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 1rem 2rem;
+  flex: 5;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem 2rem;
 }
 
-h2, h3 {
-    color: black;
+h2,
+h3 {
+  color: black;
 }
 
 nav a {
-    font-size: 18px;
-    font-weight: 400;
-    text-decoration: none;
-    color: white;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
 }
 
 nav a:hover {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .profile header {
-    text-align: center;
+  text-align: center;
 }
 
 .jumbotron {
-    font-size: 20px;
-    padding: 60px;
-    background-color: aqua;
-    text-align: center;
-    color: white;
+  font-size: 20px;
+  padding: 60px;
+  background-color: aqua;
+  text-align: center;
+  color: white;
 }
 
 nav ul {
-    padding-inline: 4rem;
-    display: flex;
-    gap: 2rem;
+  padding-inline: 4rem;
+  display: flex;
+  gap: 2rem;
 }
 
 nav li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 nav {
-    background-color: aquamarine;
-    padding: 5px;
-    position: sticky;
-    top: 0;
+  background-color: aquamarine;
+  padding: 5px;
+  position: sticky;
+  top: 0;
 }
 
 main {
-    padding: 20px;
-    display: flex;
-    flex-flow: column wrap;
-    gap: 1rem 2rem;
+  padding: 20px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem 2rem;
 }
 
 .card {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 20px;
 }
 
 .card h2 {
-    background-color: #00bcd4;
-    color: white;
-    padding: 10px;
-    margin-bottom: 20px;
-    text-align: center;
-    border-radius: 5px;
+  background-color: #00bcd4;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
 }
 
-#prohero h2{
-    background-color: #009688;
+#prohero h2 {
+  background-color: #009688;
+}
+
+#villain h2 {
+  background-color: #4a148c;
+}
+
+#ua h2 {
+  background-color: #ffeb3b;
+}
+
+#shiketsu h2 {
+  background-color: #d32f2f;
+}
+
+#ketsubutsu h2 {
+  background-color: #2e7d32;
 }
 
 .name {
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .quirk {
-    display: block;
-    font-size: 16px;
-    color: grey;
-    margin-top: 5px;
+  display: block;
+  font-size: 16px;
+  color: grey;
+  margin-top: 5px;
 }
 
 .card figure {
-    display: inline-block;
-    width: calc(20% - 1rem);
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+  display: inline-block;
+  width: calc(20% - 1rem);
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .card figure:nth-child(5n) {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 aside {
-    flex: 1;
+  flex: 1;
 }
 
 footer {
-    padding: 12px;
-    color: white;
-    background-color: aqua;
-    text-align: center;
-    font-weight: bold;
+  padding: 12px;
+  color: white;
+  background-color: aqua;
+  text-align: center;
+  font-weight: bold;
 }
